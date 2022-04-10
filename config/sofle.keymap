@@ -46,7 +46,7 @@
                     &trans    &trans      &trans    &trans    &kp RET   &kp RET &trans    &trans   &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp K_SCROLL_UP K_SCROLL_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DN &inc_dec_kp K_SCROLL_UP K_SCROLL_DN>;
         };
 
         raise_layer {
