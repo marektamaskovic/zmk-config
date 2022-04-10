@@ -46,7 +46,7 @@
                     &trans    &trans      &trans    &trans    &kp RET   &kp RET &trans    &trans   &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp LS(K_SCROLL_UP) LS(K_SCROLL_DN)>;
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp K_SCROLL_UP K_SCROLL_DN>;
         };
 
         raise_layer {
@@ -57,11 +57,11 @@
 // |     | UNDO | CUT  | COPY  | PASTE |      |BRITOG|  |      |      |      |       |      |       |       |
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4            					&trans		&trans		&trans		&trans		&trans  &trans
-&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   				&kp PG_UP 	trans		&kp UP		&trans		&kp N0  &trans
-&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                 				&kp PG_DN	&kp LEFT	&kp DOWN 	&kp RIGHT	&kp DEL &kp BSPC
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &kp C_BACKLIGHT_TOGGLE   &trans  &trans    	&trans		&trans		&trans		&trans  &trans
-                        &trans       &trans       &trans       &trans  &trans   				&trans  &trans    	&trans		&trans		&trans
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4            	&trans		&trans		&trans		&trans		&trans  &trans
+&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   &kp PG_UP 	trans		&kp UP		&trans		&kp N0  &trans
+&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK					&kp PG_DN	&kp LEFT	&kp DOWN 	&kp RIGHT	&kp DEL &kp BSPC
+&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans  &trans    	&trans		&trans		&trans		&trans  &trans
+                        &trans       &trans       &trans       &trans  &trans	&trans  &trans    	&trans		&trans		&trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN &inc_dec_kp C_FAST_FORWARD C_REWIND>;
